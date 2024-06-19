@@ -25,7 +25,7 @@ npx cap sync
 
 ### a fix for ios to complete [pod install](https://github.com/aghayev/nextjs-mobile/blob/main/fix%20pod%20install.png):
 * clone [https://github.com/CocoaPods/Xcodeproj](https://github.com/CocoaPods/Xcodeproj)
-* edit ```Gemfile.lock and xcodeproj.gemspec changing rexml version to 3.3.0
+* edit Gemfile.lock and xcodeproj.gemspec changing rexml version to 3.3.0
 * run rake build
 * run gem install rexml -v 3.3.0 (I did this with and without sudo)
 * run gem install --local pkg/xcodeproj-1.24.0.gem (I did this with and without sudo)
